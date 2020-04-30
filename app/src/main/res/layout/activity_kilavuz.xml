@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kilavuz">
+
+    <Button
+        android:id="@+id/geriButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="top"
+        android:layout_marginStart="180dp"
+        android:background="@android:drawable/ic_menu_revert"
+        android:onClick="GeriDondur2">
+    </Button>
+
+    <Button
+        android:id="@+id/hemenOynaButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="180dp"
+        android:background="@android:drawable/ic_media_play"
+        android:onClick="OyunAcici"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/kilavuz"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/infoTV"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="28dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Hızlı Balon oyunun temel prensibi ekranda çıkan beyaz balonları
+patlatırken kazara kırmızı balonlardan birini patlatıp oyunu sonladırmaman!
+-----------------------
+Eğer imkansız seviyeleri
+açmayı başarmış ve bu seviyelerinden birini tamamlayabildiysen bunu bize bildirip
+ödüülendirilmeyi unutma! "
+            android:lineSpacingExtra="15dp"
+            android:textSize="25dp"
+            android:fontFamily="serif-monospace"/>
+
+    </LinearLayout>
+</FrameLayout>

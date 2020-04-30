@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startScreen">
+
+    <LinearLayout
+        android:id="@+id/lottiesLY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical"
+        android:background="@drawable/skyfour">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/HowToUseButton"
+            android:layout_width="239dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="65dp"
+            android:onClick="KılavuzAcici"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="kilavuz.json"
+            app:lottie_loop="true" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/PlayButton"
+            android:layout_width="253dp"
+            android:layout_height="179dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="-220dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="playbutton.json"
+            app:lottie_loop="true"
+            android:onClick="OyunAcici"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/ConnectButton"
+            android:layout_width="253dp"
+            android:layout_height="179dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="-255dp"
+            android:onClick="iletisimAcici"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="iltisimbutton.json"
+            app:lottie_loop="true" />
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

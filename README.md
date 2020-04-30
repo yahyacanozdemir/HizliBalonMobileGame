@@ -1,14 +1,11 @@
---------------------------------
+
 ## Genel Bilgi 
 Hızlı Balon oyununun oynanış şekline ve oynanışa özel resimlerine aşağıdan göz atabilirsiniz.Bununla birlikte oyunu buradaki linkten apk olarak indirebilir denedikten sonra hata/öneri gibi hertürlü yorumu yahyacanozdemir@gmail.com adresine mail olarak bildirebilirsiniz.
-
---------------------------------
 
 ## Version, Android Sürümü Bilgilendirmesi
 Hızlı Balon oyunu version 1.0 sürümüyle sizlerle!     Oyununun geliştirme ve güncelleme süreci devam edecektir. 
 NOT : Oyunu oynayabilmek için android 7.0.1 ve veya daha üst sürüme sahip olan akıllı telefon gerekmektedir.
 
---------------------------------
 ## İndirme ve Test Bağlantısı (APK)
 https://drive.google.com/open?id=1qevBOiJiXSOr3sTVlkyMZxga_lDYCUBP
 --------------------------------
